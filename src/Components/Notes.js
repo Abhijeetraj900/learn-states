@@ -18,7 +18,8 @@ function Notes() {
     const ulStyle = {
       listStyle: 'none',
       display: 'grid',
-      gridTemplateColoumns: 'repeat(3, 1fr)'
+      gridTemplateColumns: 'repeat(3, 1fr)',
+      gap: '20px'
     }
 
   return (
